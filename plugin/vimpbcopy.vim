@@ -13,7 +13,7 @@ if !empty(g:vimpbcopy_maps.n)
         \ 'nnoremap %s :set operatorfunc=pbcopy#operator<CR>g@',
         \ g:vimpbcopy_maps.n)
   execute printf(
-        \ 'nnoremap %s%s :set operatorfunc=pbcopy#operator<CR>g@',
+        \ 'nnoremap %s%s :set operatorfunc=pbcopy#operator<CR>g@_',
         \ g:vimpbcopy_maps.n, g:vimpbcopy_maps.n)
 endif
 
