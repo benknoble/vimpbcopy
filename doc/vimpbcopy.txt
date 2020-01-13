@@ -27,6 +27,9 @@ mappings!
     In Normal mode, copies the following {motion} or {text-object}.
     In visual mode, copies the selection.
 
+*<C-y><C-y>*
+    Normal mode: copy a single line.
+
 Example: >
     " yank a paragraph
     <C-y>ap
