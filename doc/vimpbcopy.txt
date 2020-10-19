@@ -1,5 +1,5 @@
 *vimpbcopy.txt*           For Vim version 8             Last change: 2020 Jan 11
-*vimpbcopy* *vim-hex*
+*vimpbcopy* *vim-pbcopy*
 
 ==============================================================================
 CONTENTS                                                   *vimpbcopy-contents*
