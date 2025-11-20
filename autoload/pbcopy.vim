@@ -3,11 +3,11 @@ function! pbcopy#operator(type, ...) abort
   let l:visual = a:0
 
   if l:visual
-    normal! gv"*y
+    normal! gv"+y
   elseif a:type == 'line'
-    '[,']yank *
+    '[,']yank +
   else " char
-    normal! `[v`]"*y
+    normal! `[v`]"+y
   endif
 
 endfunction
